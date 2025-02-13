@@ -1,21 +1,23 @@
 ## Week 3 Challenge 1: User Account Management 
 
 <ol>
-<li> ✅ Create a new user (-c or --create) </li>
+<li> ✅ Account Creation with option (-c or --create) </li>
 
-<li> ✅ Delete an existing user (-d or --delete) </li>
+<li> ✅ Account Deletion with option (-d or --delete) </li>
 
-<li> ✅ Reset a user's password (-r or --reset) </li>
+<li> ✅ Password Reset with option (-r or --reset) </li>
 
-<li> ✅ List all users (-l or --list) </li>
+<li> ✅ List User Accounts with option (-l or --list) </li>
 
-<li> ✅ Display help information (-h or --help) </li>
+<li> ✅ Help and Usage Information with option (-h or --help) </li>
 </ol>
 
 ---
 <p></p>
 
 <p>Here’s a Bash script that implements the user account creation functionality as described:</p>
+
+[user.sh](user.sh)
 
 ~~~
     #!/bin/bash
@@ -138,12 +140,11 @@ esac
 
 ---
 ## 📜 Usage
-
-Run the script with any of the following options:
-
 ~~~
 ./user-management.sh [OPTION]
 ~~~
+
+Run the script with any of the following options:
 
 ✅ Create a new user (-c or --create)
 
@@ -154,6 +155,8 @@ Run the script with any of the following options:
 ✅ List all users (-l or --list)
 
 ✅ Display help information (-h or --help)
+
+
 
 ---
 ### Part 1: Account Creation
